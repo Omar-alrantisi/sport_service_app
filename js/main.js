@@ -16,6 +16,9 @@ let desc2=document.getElementById('desc2');
 
 
 let terms_link=document.getElementById('terms_link')
+let terms_link2=document.getElementById('terms_link2')
+
+
 let part_three=document.querySelector(".part_three");
 let part_two=document.querySelector(".part_two");
 
@@ -38,7 +41,7 @@ let part_two=document.querySelector(".part_two");
             btn.value="Continue";
             terms.innerHTML=" Clicking the button means you are okay with"
             desc.innerHTML="Sports are defined as physical or mental exertion by individuals and are committed to maintaining physical or mental fitness. There are many types of exercise that can be practiced as a healthy habit, such as walking, riding, Swimming, or athletics, and these sports have many benefits on the human body and mind."
-            terms_link.innerText="Terms & Conditions"
+            terms_link.innerHTML="Terms & Conditions"
 
 
             enter_number2.innerHTML="Insert Code"
@@ -46,7 +49,7 @@ let part_two=document.querySelector(".part_two");
             btn2.value="Subscribe";
             terms2.innerHTML=" Clicking the button means you are okay with"
             desc2.innerHTML="Sports are defined as physical or mental exertion by individuals and are committed to maintaining physical or mental fitness. There are many types of exercise that can be practiced as a healthy habit, such as walking, riding, Swimming, or athletics, and these sports have many benefits on the human body and mind."
-            terms_link2.innerText="Terms & Conditions"
+            terms_link2.innerHTML="Terms & Conditions"
         }
         if(getLanguage==='arabic'){
            
@@ -77,16 +80,12 @@ let part_two=document.querySelector(".part_two");
         
             e.preventDefault();
         
-        console.log("hazem")
-            // part_three.style.display="block";
-            // part_two.style.display="none";
+       
             part_three.style.setProperty('display','block', 'important');
             part_two.style.setProperty('display','none', 'important');
 
 
 
     })
-    // function getData(e) {
-    //     e.preventDefault();
-    // }
+   
     
